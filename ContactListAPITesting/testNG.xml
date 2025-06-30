@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Telecom Suite">
+
+	<listeners>
+		<listener
+			class-name="com.telecom.extentreportlistener.ExtentTestListener" />
+	</listeners>
+
+	<test name="Contact List API Testing">
+		<classes>
+			<class name="com.telecom.testcases.AddNewUser" />
+			<class name="com.telecom.testcases.Get_User_Profile" />
+			<class name="com.telecom.testcases.UpdateUser" />
+			<class name="com.telecom.testcases.LoginUser" />
+			<class name="com.telecom.testcases.AddContact" />
+			<class name="com.telecom.testcases.GetContactList" />
+			<class name="com.telecom.testcases.GetSingleContact" />
+			<class name="com.telecom.testcases.UpdateFullContact" />
+			<class name="com.telecom.testcases.UpdatePartialContact" />
+			<class name="com.telecom.testcases.LogoutUser" />
+
+
+		</classes>
+	</test>
+
+</suite>
