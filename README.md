@@ -102,7 +102,7 @@ Open `ExtentReport.html` in your browser.
 ## ✅ Test Case Coverage:
 
 | Test Case | API Tested |
-
+|---|---|
 | TC01 | Add User |
 | TC02 | Get User Profile |
 | TC03 | Update User |
