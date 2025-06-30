@@ -1,40 +1,60 @@
 # Telecom_API_Testing_Project
 
-Telecom Contact List API Testing Project 🚀
-✅ Project Overview:
-This project demonstrates end-to-end API testing for the Thinking Tester Contact List Application (Telecom Domain) using two approaches:
+# Telecom Contact List API Testing Project 🚀
 
-✅ Manual API Testing with Postman + Chai Assertions
+## ✅ Project Overview:
 
-✅ API Automation Testing using Java, RestAssured, TestNG, and Extent Reports
+This project demonstrates **end-to-end API testing** for the **Thinking Tester Contact List Application (Telecom Domain)** using two approaches:
 
-✅ Technologies Used:
-Area	                                      Tools
-API Manual Testing	                        Postman
-API Automation	                            Java, RestAssured, TestNG
-Reporting	                                  Extent Reports
-Command-line API Testing	                  Newman
-Build Management	                          Maven
+- ✅ Manual API Testing with **Postman + Chai Assertions**
+- ✅ API Automation Testing using **Java, RestAssured, TestNG, Extent Reports**
 
-✅ Project Folder Structure:
-bash
-Copy
-Edit
+---
+
+## ✅ Technologies Used:
+
+- Postman
+- Chai Assertions
+- Newman CLI
+- Java
+- RestAssured
+- TestNG
+- Maven
+- Extent Reports
+
+---
+
+## ✅ Project Folder Structure:
+
 Telecom_API_Testing_Project/
 ├── src/main/java/
-│   └── com/telecom/extentreportlistener/        # Extent Report Listener
+│ └── com/telecom/extentreportlistener/
+│ └── ExtentTestListener.java
 ├── src/test/java/
-│   └── com/telecom/testcases/                   # 10 RestAssured API Test Classes
+│ └── com/telecom/testcases/
+│ ├── AddNewUser.java
+│ ├── Get_User_Profile.java
+│ ├── UpdateUser.java
+│ ├── LoginUser.java
+│ ├── AddContact.java
+│ ├── GetContactList.java
+│ ├── GetSingleContact.java
+│ ├── UpdateFullContact.java
+│ ├── UpdatePartialContact.java
+│ └── LogoutUser.java
 ├── Postman_Collection/
-│   └── ContactListAPI_TestCollection.json       # Exported Postman Collection
+│ └── ContactListAPI_TestCollection.json
 ├── Postman_Environment/
-│   └── QA.postman_environment.json              # Postman Environment Variables (if used)
+│ └── QA.postman_environment.json
 ├── Postman_Result_Screenshot/
-│   └── Capture.PNG                              # Screenshot of Postman Test Results (Runner)
-├── ExtentReport.html                            # Extent Report Output (after automation run)
-├── testng.xml                                   # TestNG Suite File
-├── pom.xml                                      # Maven Dependencies
-└── README.md                                    # Project Summary and Instructions
+│ └── Capture.PNG
+├── ExtentReport.html
+├── testng.xml
+├── pom.xml
+└── README.md
+
+
+
 ✅ How to Run Postman Collection using Newman:
 1. Run Collection Without Environment File:
 newman run Postman_Collection/ContactListAPI_TestCollection.json
