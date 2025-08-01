@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-01T16:35:12 IST" name="Telecom Suite" finished-at="2025-08-01T16:35:33 IST" duration-ms="20673">
+  <suite started-at="2025-08-01T18:43:33 IST" name="Telecom Suite" finished-at="2025-08-01T18:43:51 IST" duration-ms="17330">
     <groups>
     </groups>
-    <test started-at="2025-08-01T16:35:12 IST" name="Contact List API Testing" finished-at="2025-08-01T16:35:33 IST" duration-ms="20673">
+    <test started-at="2025-08-01T18:43:33 IST" name="Contact List API Testing" finished-at="2025-08-01T18:43:51 IST" duration-ms="17330">
       <class name="com.telecom.testcases.ContactListApplicationTest">
-        <test-method signature="addNewUser()[pri:1, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:12 IST" name="addNewUser" finished-at="2025-08-01T16:35:17 IST" duration-ms="4805" status="PASS">
+        <test-method signature="addNewUser()[pri:1, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:33 IST" name="addNewUser" finished-at="2025-08-01T18:43:39 IST" duration-ms="5414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewUser -->
-        <test-method signature="getUserProfile()[pri:2, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:17 IST" name="getUserProfile" finished-at="2025-08-01T16:35:19 IST" duration-ms="1898" status="PASS">
+        <test-method signature="getUserProfile()[pri:2, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:39 IST" name="getUserProfile" finished-at="2025-08-01T18:43:40 IST" depends-on-methods="com.telecom.testcases.ContactListApplicationTest.addNewUser" duration-ms="1318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserProfile -->
-        <test-method signature="updateUser()[pri:3, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:19 IST" name="updateUser" finished-at="2025-08-01T16:35:21 IST" duration-ms="1840" status="PASS">
+        <test-method signature="updateUser()[pri:3, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:40 IST" name="updateUser" finished-at="2025-08-01T18:43:41 IST" duration-ms="1303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser -->
-        <test-method signature="loginUser()[pri:4, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:21 IST" name="loginUser" finished-at="2025-08-01T16:35:22 IST" duration-ms="1672" status="PASS">
+        <test-method signature="loginUser()[pri:4, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:41 IST" name="loginUser" finished-at="2025-08-01T18:43:43 IST" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
-        <test-method signature="addContact()[pri:5, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:22 IST" name="addContact" finished-at="2025-08-01T16:35:24 IST" duration-ms="1701" status="PASS">
+        <test-method signature="addContact()[pri:5, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:43 IST" name="addContact" finished-at="2025-08-01T18:43:44 IST" depends-on-methods="com.telecom.testcases.ContactListApplicationTest.loginUser" duration-ms="1271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addContact -->
-        <test-method signature="getContactList()[pri:6, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:24 IST" name="getContactList" finished-at="2025-08-01T16:35:26 IST" duration-ms="1698" status="PASS">
+        <test-method signature="getContactList()[pri:6, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:44 IST" name="getContactList" finished-at="2025-08-01T18:43:45 IST" depends-on-methods="com.telecom.testcases.ContactListApplicationTest.loginUser" duration-ms="1375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getContactList -->
-        <test-method signature="getContactById()[pri:7, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:26 IST" name="getContactById" finished-at="2025-08-01T16:35:27 IST" duration-ms="1567" status="PASS">
+        <test-method signature="getContactById()[pri:7, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:45 IST" name="getContactById" finished-at="2025-08-01T18:43:47 IST" duration-ms="1235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getContactById -->
-        <test-method signature="updateFullContact()[pri:8, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:27 IST" name="updateFullContact" finished-at="2025-08-01T16:35:29 IST" duration-ms="1660" status="PASS">
+        <test-method signature="updateFullContact()[pri:8, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:47 IST" name="updateFullContact" finished-at="2025-08-01T18:43:48 IST" duration-ms="1389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateFullContact -->
-        <test-method signature="updatePartialContact()[pri:9, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:29 IST" name="updatePartialContact" finished-at="2025-08-01T16:35:31 IST" duration-ms="1845" status="PASS">
+        <test-method signature="updatePartialContact()[pri:9, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:48 IST" name="updatePartialContact" finished-at="2025-08-01T18:43:49 IST" duration-ms="1249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePartialContact -->
-        <test-method signature="logoutUser()[pri:10, instance:com.telecom.testcases.ContactListApplicationTest@bccb269]" started-at="2025-08-01T16:35:31 IST" name="logoutUser" finished-at="2025-08-01T16:35:33 IST" duration-ms="1919" status="PASS">
+        <test-method signature="logoutUser()[pri:10, instance:com.telecom.testcases.ContactListApplicationTest@67f639d3]" started-at="2025-08-01T18:43:49 IST" name="logoutUser" finished-at="2025-08-01T18:43:51 IST" duration-ms="1237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutUser -->
