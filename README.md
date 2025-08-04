@@ -91,6 +91,9 @@ Open NewmanReport.html in your browser.
 
 ```
 mvn test
+**OR**
+Use the TestNG XML file:
+Right-click on testNG.xml → Run As → TestNG Suite
 ```
 
 After execution:
