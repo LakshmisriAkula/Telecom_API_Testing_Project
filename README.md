@@ -27,29 +27,26 @@ This project demonstrates **end-to-end API testing** for the **Thinking Tester C
 
 ```
 Telecom_API_Testing_Project/
-├── src/main/java/
-│   └── com/telecom/extentreportlistener/
-│       └── ExtentTestListener.java
-├── src/test/java/
-│   └── com/telecom/testcases/
-│       ├── AddNewUser.java
-│       ├── Get_User_Profile.java
-│       ├── UpdateUser.java
-│       ├── LoginUser.java
-│       ├── AddContact.java
-│       ├── GetContactList.java
-│       ├── GetSingleContact.java
-│       ├── UpdateFullContact.java
-│       ├── UpdatePartialContact.java
-│       └── LogoutUser.java
+├── src/
+│ ├── main/
+│ │ └── java/
+│ │ └── com/telecom/extentreportlistener/
+│ │ └── ExtentTestListener.java
+│ └── test/
+│ ├── java/
+│ │ └── com/telecom/testcases/
+│ │ └── ContactListApplicationTest.java
+│ └── resources/
 ├── Postman_Collection/
-│   └── ContactListAPI_TestCollection.json
+│ └── Telecom_API_Testing_Project.postman_collection.json
 ├── Postman_Environment/
-│   └── QA.postman_environment.json
+│ └── Telecom_APIProject.postman_environment.json
 ├── Postman_Result_Screenshot/
-│   └── Capture.PNG
+│ └── Newman Result.png
+├── test-output/
+├── target/
 ├── ExtentReport.html
-├── testng.xml
+├── testNG.xml
 ├── pom.xml
 └── README.md
 ```
@@ -60,26 +57,27 @@ Telecom_API_Testing_Project/
 
 ### Run Collection Without Environment:
 
-```bash
-newman run Postman_Collection/ContactListAPI_TestCollection.json
+```
+newman run Postman_Collection/Telecom_API_Testing_Project.postman_collection.json
 ```
 
 ### Run Collection With Environment File:
 
 ```bash
-newman run Postman_Collection/ContactListAPI_TestCollection.json -e Postman_Environment/QA.postman_environment.json
+newman run Postman_Collection/Telecom_API_Testing_Project.postman_collection.json -e Postman_Environment/Telecom_APIProject.postman_environment.json
 ```
 
 ### Generate HTML Report with htmlextra Reporter:
 
-```bash
+```
 npm install -g newman-reporter-htmlextra
 ```
 
 Then:
 
-```bash
-newman run Postman_Collection/ContactListAPI_TestCollection.json -e Postman_Environment/QA.postman_environment.json -r htmlextra --reporter-htmlextra-export output/NewmanReport.html
+```
+newman run Postman_Collection/Telecom_API_Testing_Project.postman_collection.json -e Postman_Environment/Telecom_APIProject.postman_environment.json -r htmlextra --reporter-htmlextra-export output/NewmanReport.html
+
 ```
 
 ---
@@ -88,7 +86,7 @@ newman run Postman_Collection/ContactListAPI_TestCollection.json -e Postman_Envi
 
 ### Maven Command:
 
-```bash
+```
 mvn test
 ```
 
@@ -99,24 +97,25 @@ Open `ExtentReport.html` in your browser.
 
 ---
 
-## ✅ Test Case Coverage:
+✅ Test Case Coverage:
 
-| Test Case | API Tested |
-|---|---|
-| TC01 | Add User |
-| TC02 | Get User Profile |
-| TC03 | Update User |
-| TC04 | Login User |
-| TC05 | Add Contact |
-| TC06 | Get Contact List |
-| TC07 | Get Single Contact |
-| TC08 | Update Full Contact |
-| TC09 | Update Partial Contact |
-| TC10 | Logout User |
+**Test Case File**	                          **API Tested**
+ContactListApplicationTest.java	              Covers: Add User, Get User Profile, Update User, Login User, Add Contact, Get Contact List, Get Single Contact, Update Full Contact, Update Partial Contact, Logout User
 
 ---
 
-## ✅ Author:
+## 🙋‍♀️ Author
 
 **Lakshmi Akula**  
-GitHub: [https://github.com/LakshmisriAkula](https://github.com/LakshmisriAkula)
+Automation Tester | 8+ Years QA Experience (Manual & 4+ Years Selenium Automation)  
+🌐 [GitHub](https://github.com/LakshmisriAkula)  
+🔗 [LinkedIn](https://www.linkedin.com/in/lakshmisri-akula-b78232130/)
+
+---
+
+## 📬 Contact
+
+If you have any questions or feedback, feel free to reach out via:
+- GitHub Issues  
+- LinkedIn Messaging  
+- Email (akulalakshmisri@gmail.com)
