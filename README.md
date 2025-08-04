@@ -78,6 +78,10 @@ Then:
 ```
 newman run Postman_Collection/Telecom_API_Testing_Project.postman_collection.json -e Postman_Environment/Telecom_APIProject.postman_environment.json -r htmlextra --r eporter-htmlextra-export Postman_Result_Screenshot\NewmanReport.html
 ```
+After execution:
+
+✅ View Newman Report:
+Open NewmanReport.html in your browser.
 
 ---
 
@@ -97,10 +101,10 @@ Open `ExtentReport.html` in your browser.
 ---
 
 ✅ Test Case Coverage:
-
+```
 **Test Case File**	                          **API Tested**
 ContactListApplicationTest.java	              Covers: Add User, Get User Profile, Update User, Login User, Add Contact, Get Contact List, Get Single Contact, Update Full Contact, Update Partial Contact, Logout User
-
+```
 ---
 
 ## 🙋‍♀️ Author
