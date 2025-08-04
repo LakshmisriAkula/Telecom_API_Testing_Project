@@ -41,7 +41,7 @@ Telecom_API_Testing_Project/
 │ └── Telecom_API_Testing_Project.postman_collection.json
 ├── Postman_Environment/
 │ └── Telecom_APIProject.postman_environment.json
-├── Postman_Result_Screenshot/
+├── Postman_Result/
 │ └── NewmanReport.html
 ├── test-output/
 ├── target/
@@ -76,7 +76,7 @@ npm install -g newman-reporter-htmlextra
 Then:
 
 ```
-newman run Postman_Collection/Telecom_API_Testing_Project.postman_collection.json -e Postman_Environment/Telecom_APIProject.postman_environment.json -r htmlextra --r eporter-htmlextra-export Postman_Result_Screenshot\NewmanReport.html
+newman run Postman_Collection/Telecom_API_Testing_Project.postman_collection.json -e Postman_Environment/Telecom_APIProject.postman_environment.json -r htmlextra --r eporter-htmlextra-export Postman_Result\NewmanReport.html
 ```
 After execution:
 
